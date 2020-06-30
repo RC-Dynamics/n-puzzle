@@ -1,8 +1,7 @@
 function setup() {
-  createCanvas(300, 300);
-  background(255, 0, 0);
+  createCanvas(canvas_size, canvas_size);
   p_config = create_random_puzzle();
-  console.log(p_config);
+  draw_puzzle();
 }
 
 function draw() {}

@@ -1,5 +1,6 @@
 var p_size = 3;
 var p_config = [];
+var canvas_size = 300;
 
 function create_random_puzzle() {
   var tmp,
